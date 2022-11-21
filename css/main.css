@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Hubot Sans';
+    src:
+      url('../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
+      url('../fonts/Hubot-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+html {
+    font-family: 'Hubot Sans';
+    background-color: black;
+    color: #fafafa;
+}
+
+main {
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#verticalScrollContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 3px double black;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 10px 1px #fafafa;
+    z-index: 999;
+    color: black;
+}
+
+#verticalScrollContainer #verticalScrollCounter {
+    font-size: 2em;
+}
+
+section {
+    height: 100vh;
+}
+
+.flex-content-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parallax-title {
+    font-size: 10em;
+    font-weight: bolder;
+    text-shadow: 3px 2px 10px #fafafa;
+}
+
+#parallax-composition {
+    background-image: url('../img/stars.jpg');
+    position: relative;
+}
+
+#parallax-composition img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#mountain {
+    bottom: -100%;
+}
+
+#smalltree {
+    bottom: -200%;
+}
+
+#bigtree {
+    bottom: -300%;
+}
+
+#copyright {
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    text-align: end;
+    right: 20px;
+}

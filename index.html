@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web effects 101 | An introduction to parallax effect</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 </head>
 <body>
-    
+    <div id="verticalScrollContainer">
+        <h3>Vertical scroll</h3>
+        <p id="verticalScrollCounter">0</p>
+    </div>
+    <main>
+        <section class="flex-content-centered">
+            <ul id="parallax-title" class="flex-content-centered">
+                <li rate=0.8>Par</li>
+                <li rate=1>al</li>
+                <li rate=1.2>lax</li>
+            </ul>
+        </section>
+        <section></section>
+        <section id="parallax-composition">
+            <img id="mountain" src="img/mountain.png" alt="mountain at night" rate="-0.5">
+            <img id="smalltree" src="img/smalltree.png" alt="small tree without leaves" rate="-1">
+            <img id="bigtree" src="img/bigtree.png" alt="big tree without leaves" rate="-1.5">
+        </section>
+    </main>
+    <p id="copyright">Developed by Gabit</p>
+    <script src="js/scrolling.js"></script>
 </body>
 </html>
