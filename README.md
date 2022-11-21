@@ -9,7 +9,7 @@ Basic introduction to implement parallax effect developed with vanilla web techn
 
 ## Links
 
-Project page: ?  
+Project page: https://gabit690.github.io/101-parallax-effect
 Repository: https://github.com/gabit690/101-parallax-effect
 
 ## Copyright
