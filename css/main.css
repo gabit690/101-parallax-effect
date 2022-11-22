@@ -7,13 +7,9 @@
 @font-face {
     font-family: 'Hubot Sans';
     src:
-<<<<<<< HEAD
       url('./font/Hubot-Sans.woff2') format('woff2 supports variations'),
       url('./font/Hubot-Sans.woff2') format('woff2-variations');
-=======
-      url('./../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
-      url('./../fonts/Hubot-Sans.woff2') format('woff2-variations');
->>>>>>> 04ef1a49607a7edde3016027d5ac685f6b2db7ed
+
     font-weight: 200 900;
     font-stretch: 75% 125%;
 }
